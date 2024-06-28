@@ -1,0 +1,2 @@
+Google Form-like Application
+This project replicates a Google Form-like application where users can submit their information, which is stored in a MongoDB database. It includes a frontend form (Google_Form.html) styled with CSS (Google_Form.css) and utilizes Node.js with Express for backend functionality. The application handles form submissions (app.post('/submit')) and connects to MongoDB via Mongoose (Data.js defines schema).
