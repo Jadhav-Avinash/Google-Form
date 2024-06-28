@@ -1,0 +1,230 @@
+body {
+    background-color: #ede7f6;
+    font-family: Roboto, Sans-serif;
+}
+
+.form {
+    height: 1100px;
+    width: 600px;
+    margin: auto;
+}
+.img {
+    height: 150px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 650px;
+    height: 250px;
+    display: block;
+    margin: -25px;
+} 
+
+
+
+.required {
+    font-size: 13px;
+    color: red;
+    margin-top: -8px;
+}
+
+.title-div {
+    height: 150px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
+}
+
+
+.name-div,
+.middle-div,
+.lastname-div,
+.contactnumber-div,
+.altcontactnumber-div,
+.gmail-div,
+.dob-div,
+.gender-div,
+.marital-div,
+.nationality-div,
+.blood-div
+ {
+    height: 150px;
+    width: 650px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.name {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.Desc{
+    padding-top: 5px;
+}
+
+.input-div {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+/* Add margin to the left of radio buttons */
+.input-div input[type="radio"] {
+    margin-right: 5px;
+    /* Space between the radio button and label */
+    vertical-align: middle;
+    /* Align vertically with the label */
+   
+        /* Add margin below each radio input */
+    
+   
+}
+
+/* Optional: Hide default radio button appearance */
+.input-div input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    /* Adjust size of the custom radio button */
+    height: 15px;
+    /* Adjust size of the custom radio button */
+    border: 2px solid #666;
+    /* Border color */
+    border-radius: 50%;
+    /* Make it circular */
+    outline: none;
+    /* Remove outline */
+    margin-right: 5px;
+    /* Space between the radio button and label */
+    vertical-align: middle;
+    /* Align vertically with the label */
+   
+}
+
+/* Style when radio button is checked */
+.input-div input[type="radio"]:checked {
+    background-color: #6703c4;
+    /* Custom color when checked */
+    border-color: #6703c4;
+    /* Custom color for border when checked */
+
+}
+.gender-div .input-div {
+    padding-top: 1px;
+    padding-left: 25px;
+}
+.marital-div .input-div {
+    padding-top: 0px;
+    padding-left: 25px;
+    /* margin-bottom: 60px; */
+    margin-top: -15px;
+}
+.blood-div .input-div {
+    padding-top: 0px;
+    padding-left: 25px;
+    /* margin-bottom: 60px; */
+    margin-top: 10px;
+}
+
+/* Optional: Style for the label text */
+.input-div label {
+    font-size: 13px;
+    /* Adjust font size */
+    color: #333;
+    /* Adjust text color */
+    cursor: pointer;
+    /* Change cursor to pointer */
+   margin-bottom: 90px;
+        /* Add margin below each label */
+}
+
+
+
+.input-div input {
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    font-size: 15px;
+}
+
+
+.button-container{
+    
+    position: relative;
+
+    
+}
+.button-container .next-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-335%, 0%);
+    width: 85px;
+    height: 30px;
+    background-color: #6703c4;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button-container .clear-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(330%, 0%);
+    width: 85px;
+    height: 30px;
+    background-color: #6703c4;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.last-div h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: #a2a4a6;
+    font-weight: 200;
+    margin-top: 0px;
+}
+
+.term {
+    font-size: 12px;
+    padding-left: 65px;
+    padding-top: 5px;
+    position: absolute;
+   margin-left: 10%;
+}
+
+.never {
+    padding-left: 15px;
+    font-size: 12px;
+    padding-top: 70px;
+    font-weight: 400;
+
+}
+
+.success-div {
+    height: 150px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 8px solid #6703c4;
+    padding: 25px;
+}

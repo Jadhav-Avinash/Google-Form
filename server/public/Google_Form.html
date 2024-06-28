@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google_Form</title>
+    <link rel="stylesheet" type="text/css" href="Google_Form.css">
+</head>
+
+<body>
+    <form id="application-form" action="./result.html" method="post">
+        <div class="form">
+
+            <div class="img"><img src="./img.png"></div>
+            <div class="title-div">
+                <h1>Candidate Application Form - VYZEN</h1>
+                <p>Please fill out the following details accurately to apply for the position.. Ensure you upload
+                    necessary
+                    documents where
+                    required. Fields marked with an asterisk (*) are mandatory.</p>
+                <hr>
+                <p class="required">*Indicates required question</p>
+            </div>
+
+            <div class="name-div">
+                <div class="name">First Name <span class="required">*</span>
+                    <div class="Desc">Description: Enter your first name.</div>
+                </div>
+                <div class="input-div"><input type="input" name="firstname" placeholder="Your answer"></div>
+            </div>
+
+            <div class="middle-div">
+                <div class="name">Middle Name
+                    <div class="Desc">Description: Enter your Middle name.</div>
+                </div>
+                <div class="input-div"><input type="input" name="middlename" placeholder="Your answer"></div>
+            </div>
+
+            <div class="lastname-div">
+                <div class="name">Last Name <span class="required">*</span>
+                    <div class="Desc">Description: Enter your last name.</div>
+                </div>
+                <div class="input-div"><input type="input" name="lastname" placeholder="Your answer"></div>
+            </div>
+
+            <div class="contactnumber-div">
+                <div class="name">Contact Number <span class="required">*</span>
+                    <div class="Desc">Description: Enter your primary contact number. Format: +(Country Code) [Number}
+                    </div>
+                </div>
+                <div class="input-div"><input type="input" name="contactnumber" placeholder="Your answer"></div>
+            </div>
+
+            <div class="altcontactnumber-div">
+                <div class="name">Alternate Contact Number <span class="required">*</span>
+                    <div class="Desc">Description: Enter an alternate contact number. Format: +(Country Code) [Number}
+                    </div>
+                </div>
+                <div class="input-div"><input type="input" name="altcontactnumber" placeholder="Your answer"></div>
+            </div>
+
+            <div class="gmail-div">
+                <div class="name">Email ID <span class="required">*</span>
+                    <div class="Desc">Description: Enter your email address. Format: example@example.com.</div>
+                </div>
+                <div class="input-div"><input type="input" name="mail" placeholder="Your email"></div>
+            </div>
+
+            <div class="dob-div">
+                <div class="name">Date of Birth <span class="required">*</span>
+                    <div class="Desc">Description: Select your date of birth from the calendar.</div>
+                </div>
+                <div class="input-div"><input type="date" name="dob"></div>
+            </div>
+            <div class="gender-div">
+                <div class="name">Gender <span class="required">*</span>
+                </div>
+                <div class="input-div">
+                    <label><input type="radio" name="male" value="male">Male</label><br>
+                    <label><input type="radio" name="female" value="female">Female</label><br>
+                    <label><input type="radio" name="other" value="prefer_not_to_say">Prefer not to say</label>
+                </div>
+            </div>
+
+            <div class="marital-div">
+                <div class="name">Marital Status <span class="required">*</span>
+                    <div class="Desc">Description: Enter your marital status.</div>
+                </div>
+                <div class="input-div">
+                    <label><input type="radio" name="married" value="Married">Married</label><br>
+                    <label><input type="radio" name="Unmarried" value="Unmarried">Unmarried</label><br>
+                    <label><input type="radio" name="notprefer" value="prefer_not_to_say">Prefer not to say</label>
+                </div>
+            </div>
+
+            <div class="nationality-div">
+                <div class="name">Nationality / Citizen <span class="required">*</span>
+                    <div class="Desc">Description: Enter the name of the Country of nationality or citizenship.</div>
+                </div>
+                <div class="input-div"><input type="input" name="nationality" placeholder="Your answer"></div>
+            </div>
+
+            <div class="blood-div">
+                <div class="name">Blood Group <span class="required">*</span>
+                    <div class="Desc">Description: Enter your blood group. Format: O+, A-, etc.</div>
+                </div>
+                <div class="input-div">
+                    <label><input type="radio" name="blood" value="option">Option 1</label>
+                </div>
+            </div>
+
+
+            <div class="button-container">
+
+                <input class="next-btn" type="submit" name="submit" value="Submit">
+                <input class="clear-btn" type="reset" name="clearform" value="Clear Form">
+            </div>
+            <div class="last-div">
+                <p class="never">Never submit passwords through Google Forms.</p>
+                <p class="term">This form was created inside of VYZEN.<a
+                        href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdz3FtWmNAqA9qwrPgesNWFXa5Qp1-0HktmPAWK1wAffxYdhQ/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSdz3FtWmNAqA9qwrPgesNWFXa5Qp1-0HktmPAWK1wAffxYdhQ/viewform?usp%3Dsend_form"
+                        target="_blank"> Report Abuse</a>
+                </p>
+                <h2>Google Forms</h2>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+
+</html>
